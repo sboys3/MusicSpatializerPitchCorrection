@@ -1,0 +1,9 @@
+.vs
+/beatsaber
+obj
+/bin
+/MusicSpatializerPitchCorrectionPlugin.zip
+*-localOnly*
+/stftRecoverLib/bin
+/stftRecoverLib/int
+recover.h

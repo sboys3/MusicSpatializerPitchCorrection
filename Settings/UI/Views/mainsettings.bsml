@@ -1,0 +1,13 @@
+﻿<settings-container>
+  <horizontal>
+    <text text='Music Spatializer Pitch Correction' font-size='7' size-delta-y='12' />
+  </horizontal>
+  <bool-setting text='Enable Pitch Correction'
+    hover-hint='When enabled, Music Spatializer will keep the pitch the same when in faster/slower song mode.' 
+    font-size='5' value='musicspatializerpitch-enabled'
+    get-event="refresh-musicspatializer-values"
+    />
+  <horizontal pref-width='90'>
+    <text text='When pitch correction is disabled, faster song will sound like nightcore and slower song will sound low pitched. Enabling it will make the pitch the same as it normally is but the audio will be slightly lower quality on faster/slower song.' size-delta-y='6' font-size='4' word-wrapping='true'/>
+  </horizontal>
+</settings-container>

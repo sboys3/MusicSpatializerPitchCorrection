@@ -1,0 +1,9 @@
+#pragma once
+#include "wavfile.cpp"
+#include "fastapprox-all.h"
+#include "fast_median.cpp"
+#include "fftsg_h.cpp"
+#include "ciglet.cpp"
+#include "ciglet.h"
+#undef max
+#undef min
