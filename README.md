@@ -1,7 +1,7 @@
 # Music Spatializer Pitch Correction
 This plugin for Beat Saber allows the Music Spatializer plugin to maintain normal pitch when a song is not played at its original speed.
 
-The algorithm that is used for recovering the stft phase information is private and not included in this repository. The file is recover.h and will cause build errors due to its absence. If you would like more information contact me on discord.
+:warning: The algorithm that is used for recovering the stft phase information is private and not included in this repository. The file is recover.h and will cause build errors due to its absence. If you would like more information contact me on discord.
 
 Dependencies: BSIPA and Music Spatializer
 
