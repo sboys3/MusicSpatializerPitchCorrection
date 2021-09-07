@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/nike4613/ModSaber-MetadataFileSchema/master/Schema.json",
   "author": "SBoys3",
   "description": "Allows Music Spatializer to retain the original pitch of songs in faster/slower song mode at the cost of a little quality.",
-  "gameVersion": "1.13.4",
+  "gameVersion": "1.17.0",
   "id": "Music Spatializer Pitch Correction",
   "name": "Music Spatializer Pitch Correction",
   "icon": "MusicSpatializer.icon.png",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "dependsOn": {
     "BeatSaberMarkupLanguage": "^1.1.0",
     "Music Spatializer": "^1.1.1",

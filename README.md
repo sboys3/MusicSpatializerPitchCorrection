@@ -3,7 +3,7 @@ This plugin for Beat Saber allows the Music Spatializer plugin to maintain norma
 
 :warning: The algorithm that is used for recovering the stft phase information is private and not included in this repository. The file is recover.h and will cause build errors due to its absence. If you would like more information contact me on discord.
 
-Dependencies: BSIPA and Music Spatializer
+Dependencies: BSIPA, BSML and Music Spatializer
 
 ## Building
 

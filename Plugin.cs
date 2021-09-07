@@ -19,13 +19,13 @@ namespace MusicSpatializerPitchCorrection
     public class Plugin {
 
 
-        public Logger log;
+        public static IPA.Logging.Logger log;
         public const string Name = "Music Spatializer Pitch Correction";
 
         bool hasRegisteredEvent = false;
 
         [Init]
-        public void Init(Logger logger, Config conf)
+        public void Init(IPA.Logging.Logger logger, Config conf)
         {
             log = logger;
             Configuration.Init(conf);
@@ -71,8 +71,10 @@ namespace MusicSpatializerPitchCorrection
             
         }
 
-        public static void Log(string format, params object[] args) {
-            Console.WriteLine($"[{Name}] " + format, args);
+        public static void Log(string format, params object[] args)
+        {
+            //Console.WriteLine($"[{Name}] " + format, args);
+            log.Info(String.Format(format, args));
         }
 
 
