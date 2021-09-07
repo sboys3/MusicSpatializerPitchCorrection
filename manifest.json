@@ -6,7 +6,7 @@
   "id": "Music Spatializer Pitch Correction",
   "name": "Music Spatializer Pitch Correction",
   "icon": "MusicSpatializer.icon.png",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "dependsOn": {
     "BeatSaberMarkupLanguage": "^1.1.0",
     "Music Spatializer": "^1.1.1",
